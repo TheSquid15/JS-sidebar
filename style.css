@@ -1,0 +1,47 @@
+* {
+    transition: all 0.5s;
+}
+
+body {
+    margin: 0;
+    display: flex;
+}
+
+.sidebar {
+    width: 200px;
+    height: 100%;
+    margin-left: -200px;
+}
+
+.active {
+    margin: 0;
+}
+
+.main-body {
+    width: 100%;
+    height: auto;
+    position: relative;
+    display: grid;
+    grid-template-rows: 50px 2fr 50px;
+    grid-template-columns: repeat(12, 1fr);
+}
+
+.sidebar-button {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: coral;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+}
+
+.main-body .img-container {
+    grid-row: 2 / 3;
+    grid-column: 2 / 7;
+}
+
+.img-container img {
+    height: auto;
+    width: 100%;
+}
