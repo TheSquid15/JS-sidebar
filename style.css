@@ -34,6 +34,13 @@ body {
     border-radius: 50%;
     height: 30px;
     width: 30px;
+    box-shadow: 2px 2px 3px #777777;
+}
+
+.sidebar-button:active {
+    box-shadow: none;
+    height: 29px;
+    height: 29px;
 }
 
 .main-body .img-container {
