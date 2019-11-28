@@ -9,8 +9,9 @@ body {
 
 .sidebar {
     width: 200px;
-    height: 100%;
-    margin-left: -200px;
+    height: 100vh;
+    margin-left: -150px;
+    background-color: crimson;
 }
 
 .active {
@@ -44,7 +45,8 @@ body {
 .sidebar-button:active {
     box-shadow: none;
     height: 29px;
-    height: 29px;
+    width: 29px;
+    transition: 0.2s all;
 }
 
 .main-body .img-container {
